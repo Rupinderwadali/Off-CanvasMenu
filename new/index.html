@@ -53,7 +53,20 @@
 			</div><!-- /content-wrap -->
 		</div><!-- /container -->
 	
-		<script src="js/classie.js"></script>
-		<script src="js/main.js"></script>
+		<!--<script src="js/classie.js"></script>
+		<script src="js/main.js"></script>-->
+		<script type= "text/javascript" language= "javascript">
+			var isOpen = false;
+                       $("#open-button").click(function(){
+                           if( isOpen ) {
+	                     removeClass('show-menu' );
+		             }
+		           else {
+			     addClass('show-menu');
+		             }
+		       isOpen = !isOpen;
+
+                      });
+		</script>
 	</body>
 </html>

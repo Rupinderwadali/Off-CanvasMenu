@@ -208,13 +208,14 @@ body,
 .show-menu .menu-wrap {
 	opacity: 1;
 }
-.content-wrap,
-.menu-button {
+
+.show-menu .content-wrap,
+.show-menu .menu-button {
 	-webkit-transform: translate3d(300px,60px,0);
 	transform: translate3d(300px,60px,0);
 }
 
-.content::before {
+.show-menu .content::before {
 	opacity: 1;
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
