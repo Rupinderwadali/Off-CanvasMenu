@@ -37,10 +37,10 @@
 
 	function toggleMenu() {
 		if( isOpen ) {
-			classie.remove( bodyEl, 'show-menu' );
+			 bodyEl.removeClass('show-menu');
 		}
 		else {
-			classie.add( bodyEl, 'show-menu' );
+		bodyEl.addClass('show-menu');	
 		}
 		isOpen = !isOpen;
 	}
